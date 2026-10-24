@@ -1,0 +1,38 @@
+test_alert_does_not_fit_current (test_analyze.RiskTests.test_alert_does_not_fit_current) ... ok
+test_band_equality_inside (test_analyze.RiskTests.test_band_equality_inside) ... ok
+test_bps_and_hypothetical_loss (test_analyze.RiskTests.test_bps_and_hypothetical_loss) ... ok
+test_duplicate_date_rejected (test_analyze.RiskTests.test_duplicate_date_rejected) ... ok
+test_empty_file_rejected (test_analyze.RiskTests.test_empty_file_rejected) ... ok
+test_empty_interval (test_analyze.RiskTests.test_empty_interval) ... ok
+test_future_not_change_past (test_analyze.RiskTests.test_future_not_change_past) ... ok
+test_gap_breaks_recovery (test_analyze.RiskTests.test_gap_breaks_recovery) ... ok
+test_history_gap_skipped (test_analyze.RiskTests.test_history_gap_skipped) ... ok
+test_invalid_prices_rejected (test_analyze.RiskTests.test_invalid_prices_rejected) ... ok
+test_invalid_window (test_analyze.RiskTests.test_invalid_window) ... ok
+test_inverted_interval (test_analyze.RiskTests.test_inverted_interval) ... ok
+test_missing_not_filled (test_analyze.RiskTests.test_missing_not_filled) ... ok
+test_no_recovery_is_not_zero (test_analyze.RiskTests.test_no_recovery_is_not_zero) ... ok
+test_par_baseline (test_analyze.RiskTests.test_par_baseline) ... ok
+test_snapshot_hashes_and_completeness (test_analyze.RiskTests.test_snapshot_hashes_and_completeness) ... ok
+test_three_day_confirmation (test_analyze.RiskTests.test_three_day_confirmation) ... ok
+test_wider_band_monotonic (test_analyze.RiskTests.test_wider_band_monotonic) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.012s
+
+OK
+{"tests_run": 18, "success": true}
+
+DEMO
+# Observed daily stablecoin prices
+
+Real public Coin Metrics observations, January–June 2023. This is an intentionally selected historical stress case, not an unbiased forecast evaluation.
+
+| Asset | March minimum USD | Date | Days outside ±100 bps | Max deviation bps | Missing days |
+|---|---:|---|---:|---:|---:|
+| USDC | 0.970647824663939 | 2023-03-11 | 1 | 293.52 | 0 |
+| DAI | 0.966993234213757 | 2023-03-11 | 1 | 330.07 | 0 |
+
+Recovery is confirmation of three consecutive observed daily prices within the stated band after the sample minimum. It is not proof of redemption availability.
+
+Daily prices do not capture intraday extremes or executable liquidity. Missing values are never filled. The mark-to-peg shortfall for 10,000 tokens is a hypothetical USD valuation scenario, not realized loss or a guaranteed redemption amount.
