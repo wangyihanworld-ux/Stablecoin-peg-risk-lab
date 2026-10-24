@@ -1,0 +1,2022 @@
+{
+  "usdc": {
+    "periods": {
+      "pre_selected_event": {
+        "start": "2023-01-01",
+        "end": "2023-02-28",
+        "observations": 59,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.9995392169952",
+        "trough_date": "2023-01-05",
+        "max_absolute_deviation_bps": 14.6820920943,
+        "mean_absolute_deviation_bps": 1.6846396197530509,
+        "days_outside_band": 0,
+        "observed_fraction_outside_band": 0.0,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-01-08",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "4.6078300480000"
+      },
+      "selected_stress_month": {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.970647824663939",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 293.52175336061,
+        "mean_absolute_deviation_bps": 15.975207156030967,
+        "days_outside_band": 1,
+        "observed_fraction_outside_band": 0.03225806451612903,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-03-14",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "293.521753360610000"
+      },
+      "after_selected_event": {
+        "start": "2023-04-01",
+        "end": "2023-06-30",
+        "observations": 91,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.999458274433751",
+        "trough_date": "2023-06-04",
+        "max_absolute_deviation_bps": 84.5185075498,
+        "mean_absolute_deviation_bps": 3.9840572619446153,
+        "days_outside_band": 0,
+        "observed_fraction_outside_band": 0.0,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-06-07",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "5.417255662490000"
+      }
+    },
+    "sensitivity": [
+      {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.970647824663939",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 293.52175336061,
+        "mean_absolute_deviation_bps": 15.975207156030967,
+        "days_outside_band": 2,
+        "observed_fraction_outside_band": 0.06451612903225806,
+        "threshold_bps": 50,
+        "recovery_confirmation_date": "2023-03-15",
+        "days_to_three_day_recovery_confirmation": 4,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "293.521753360610000"
+      },
+      {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.970647824663939",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 293.52175336061,
+        "mean_absolute_deviation_bps": 15.975207156030967,
+        "days_outside_band": 1,
+        "observed_fraction_outside_band": 0.03225806451612903,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-03-14",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "293.521753360610000"
+      },
+      {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.970647824663939",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 293.52175336061,
+        "mean_absolute_deviation_bps": 15.975207156030967,
+        "days_outside_band": 1,
+        "observed_fraction_outside_band": 0.03225806451612903,
+        "threshold_bps": 200,
+        "recovery_confirmation_date": "2023-03-14",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "293.521753360610000"
+      }
+    ],
+    "lagged_alerts": [
+      {
+        "date": "2023-01-31",
+        "prior_threshold_bps": 7.998047884492008,
+        "absolute_deviation_bps": 0.51717411548,
+        "alert": false
+      },
+      {
+        "date": "2023-02-01",
+        "prior_threshold_bps": 8.006505966858882,
+        "absolute_deviation_bps": 0.3046050027,
+        "alert": false
+      },
+      {
+        "date": "2023-02-02",
+        "prior_threshold_bps": 8.020403203053572,
+        "absolute_deviation_bps": 1.7945372871,
+        "alert": false
+      },
+      {
+        "date": "2023-02-03",
+        "prior_threshold_bps": 8.031991414990038,
+        "absolute_deviation_bps": 14.6820920943,
+        "alert": true
+      },
+      {
+        "date": "2023-02-04",
+        "prior_threshold_bps": 11.556147255351632,
+        "absolute_deviation_bps": 1.1922438573,
+        "alert": false
+      },
+      {
+        "date": "2023-02-05",
+        "prior_threshold_bps": 11.36613581169042,
+        "absolute_deviation_bps": 1.9854704851,
+        "alert": false
+      },
+      {
+        "date": "2023-02-06",
+        "prior_threshold_bps": 11.37518313868389,
+        "absolute_deviation_bps": 1.2216798766,
+        "alert": false
+      },
+      {
+        "date": "2023-02-07",
+        "prior_threshold_bps": 11.366226670103604,
+        "absolute_deviation_bps": 0.14443887165,
+        "alert": false
+      },
+      {
+        "date": "2023-02-08",
+        "prior_threshold_bps": 11.352743760176761,
+        "absolute_deviation_bps": 0.43064821293,
+        "alert": false
+      },
+      {
+        "date": "2023-02-09",
+        "prior_threshold_bps": 11.358969091998599,
+        "absolute_deviation_bps": 0.1547844368,
+        "alert": false
+      },
+      {
+        "date": "2023-02-10",
+        "prior_threshold_bps": 11.358758567559873,
+        "absolute_deviation_bps": 0.3296680398,
+        "alert": false
+      },
+      {
+        "date": "2023-02-11",
+        "prior_threshold_bps": 11.362985956223033,
+        "absolute_deviation_bps": 0.1232778637,
+        "alert": false
+      },
+      {
+        "date": "2023-02-12",
+        "prior_threshold_bps": 11.37329373360567,
+        "absolute_deviation_bps": 0.8760012992,
+        "alert": false
+      },
+      {
+        "date": "2023-02-13",
+        "prior_threshold_bps": 11.362800029086602,
+        "absolute_deviation_bps": 1.32073056692,
+        "alert": false
+      },
+      {
+        "date": "2023-02-14",
+        "prior_threshold_bps": 11.254213421407151,
+        "absolute_deviation_bps": 2.5739275015,
+        "alert": false
+      },
+      {
+        "date": "2023-02-15",
+        "prior_threshold_bps": 11.296505302560199,
+        "absolute_deviation_bps": 0.03967341744,
+        "alert": false
+      },
+      {
+        "date": "2023-02-16",
+        "prior_threshold_bps": 11.294220633832449,
+        "absolute_deviation_bps": 4.47675523725,
+        "alert": false
+      },
+      {
+        "date": "2023-02-17",
+        "prior_threshold_bps": 11.440547600176465,
+        "absolute_deviation_bps": 0.01601602396,
+        "alert": false
+      },
+      {
+        "date": "2023-02-18",
+        "prior_threshold_bps": 11.44635702350525,
+        "absolute_deviation_bps": 0.3378938787,
+        "alert": false
+      },
+      {
+        "date": "2023-02-19",
+        "prior_threshold_bps": 9.459343424390255,
+        "absolute_deviation_bps": 0.97115510947,
+        "alert": false
+      },
+      {
+        "date": "2023-02-20",
+        "prior_threshold_bps": 9.416435107593596,
+        "absolute_deviation_bps": 2.81775769299,
+        "alert": false
+      },
+      {
+        "date": "2023-02-21",
+        "prior_threshold_bps": 9.491851598476542,
+        "absolute_deviation_bps": 1.53409021825,
+        "alert": false
+      },
+      {
+        "date": "2023-02-22",
+        "prior_threshold_bps": 9.479295363230282,
+        "absolute_deviation_bps": 0.3971776643,
+        "alert": false
+      },
+      {
+        "date": "2023-02-23",
+        "prior_threshold_bps": 9.47649917184237,
+        "absolute_deviation_bps": 0.9208539426,
+        "alert": false
+      },
+      {
+        "date": "2023-02-24",
+        "prior_threshold_bps": 9.461702115363355,
+        "absolute_deviation_bps": 2.83689655172,
+        "alert": false
+      },
+      {
+        "date": "2023-02-25",
+        "prior_threshold_bps": 9.540852892463617,
+        "absolute_deviation_bps": 0.1406978499,
+        "alert": false
+      },
+      {
+        "date": "2023-02-26",
+        "prior_threshold_bps": 9.545322916802043,
+        "absolute_deviation_bps": 0.6173874927,
+        "alert": false
+      },
+      {
+        "date": "2023-02-27",
+        "prior_threshold_bps": 9.542531442655147,
+        "absolute_deviation_bps": 0.53573341675,
+        "alert": false
+      },
+      {
+        "date": "2023-02-28",
+        "prior_threshold_bps": 9.452352999736064,
+        "absolute_deviation_bps": 0.74056691993,
+        "alert": false
+      },
+      {
+        "date": "2023-03-01",
+        "prior_threshold_bps": 9.452771331271666,
+        "absolute_deviation_bps": 2.22723180045,
+        "alert": false
+      },
+      {
+        "date": "2023-03-02",
+        "prior_threshold_bps": 9.494383585769816,
+        "absolute_deviation_bps": 0.71976583357,
+        "alert": false
+      },
+      {
+        "date": "2023-03-03",
+        "prior_threshold_bps": 9.494049103470164,
+        "absolute_deviation_bps": 0.0861681567,
+        "alert": false
+      },
+      {
+        "date": "2023-03-04",
+        "prior_threshold_bps": 9.497892704095879,
+        "absolute_deviation_bps": 0.3744640677,
+        "alert": false
+      },
+      {
+        "date": "2023-03-05",
+        "prior_threshold_bps": 9.473726363915882,
+        "absolute_deviation_bps": 0.1511620762,
+        "alert": false
+      },
+      {
+        "date": "2023-03-06",
+        "prior_threshold_bps": 4.1604484866302425,
+        "absolute_deviation_bps": 0.49424705336,
+        "alert": false
+      },
+      {
+        "date": "2023-03-07",
+        "prior_threshold_bps": 4.147462302931794,
+        "absolute_deviation_bps": 1.29993256444,
+        "alert": false
+      },
+      {
+        "date": "2023-03-08",
+        "prior_threshold_bps": 4.080872934992614,
+        "absolute_deviation_bps": 0.528462778,
+        "alert": false
+      },
+      {
+        "date": "2023-03-09",
+        "prior_threshold_bps": 4.062903106726872,
+        "absolute_deviation_bps": 0.0528872005,
+        "alert": false
+      },
+      {
+        "date": "2023-03-10",
+        "prior_threshold_bps": 4.067235212094186,
+        "absolute_deviation_bps": 32.76973115137,
+        "alert": true
+      },
+      {
+        "date": "2023-03-11",
+        "prior_threshold_bps": 19.429475348705374,
+        "absolute_deviation_bps": 293.52175336061,
+        "alert": true
+      },
+      {
+        "date": "2023-03-12",
+        "prior_threshold_bps": 169.70049492268777,
+        "absolute_deviation_bps": 81.74119812975,
+        "alert": false
+      },
+      {
+        "date": "2023-03-13",
+        "prior_threshold_bps": 176.66973673719298,
+        "absolute_deviation_bps": 11.42691834016,
+        "alert": false
+      },
+      {
+        "date": "2023-03-14",
+        "prior_threshold_bps": 176.85985440208478,
+        "absolute_deviation_bps": 5.43254422843,
+        "alert": false
+      },
+      {
+        "date": "2023-03-15",
+        "prior_threshold_bps": 176.91206868859274,
+        "absolute_deviation_bps": 1.72373719219,
+        "alert": false
+      },
+      {
+        "date": "2023-03-16",
+        "prior_threshold_bps": 176.9154031088688,
+        "absolute_deviation_bps": 2.46368790181,
+        "alert": false
+      },
+      {
+        "date": "2023-03-17",
+        "prior_threshold_bps": 176.91428844736083,
+        "absolute_deviation_bps": 0.590481934,
+        "alert": false
+      },
+      {
+        "date": "2023-03-18",
+        "prior_threshold_bps": 176.91760004634946,
+        "absolute_deviation_bps": 3.06223403681,
+        "alert": false
+      },
+      {
+        "date": "2023-03-19",
+        "prior_threshold_bps": 176.8999999218823,
+        "absolute_deviation_bps": 4.51194568883,
+        "alert": false
+      },
+      {
+        "date": "2023-03-20",
+        "prior_threshold_bps": 176.9429419962165,
+        "absolute_deviation_bps": 14.57885199707,
+        "alert": false
+      },
+      {
+        "date": "2023-03-21",
+        "prior_threshold_bps": 177.2076443093739,
+        "absolute_deviation_bps": 13.83103333034,
+        "alert": false
+      },
+      {
+        "date": "2023-03-22",
+        "prior_threshold_bps": 177.434273121174,
+        "absolute_deviation_bps": 8.07532232348,
+        "alert": false
+      },
+      {
+        "date": "2023-03-23",
+        "prior_threshold_bps": 177.50478453718895,
+        "absolute_deviation_bps": 5.29469601602,
+        "alert": false
+      },
+      {
+        "date": "2023-03-24",
+        "prior_threshold_bps": 177.53990138160825,
+        "absolute_deviation_bps": 0.34360084709,
+        "alert": false
+      },
+      {
+        "date": "2023-03-25",
+        "prior_threshold_bps": 177.53971116390068,
+        "absolute_deviation_bps": 0.59678382842,
+        "alert": false
+      },
+      {
+        "date": "2023-03-26",
+        "prior_threshold_bps": 177.5383221657417,
+        "absolute_deviation_bps": 1.34814378299,
+        "alert": false
+      },
+      {
+        "date": "2023-03-27",
+        "prior_threshold_bps": 177.5281557329929,
+        "absolute_deviation_bps": 1.7583985973,
+        "alert": false
+      },
+      {
+        "date": "2023-03-28",
+        "prior_threshold_bps": 177.53575420980636,
+        "absolute_deviation_bps": 0.76947151947,
+        "alert": false
+      },
+      {
+        "date": "2023-03-29",
+        "prior_threshold_bps": 177.53638702152023,
+        "absolute_deviation_bps": 2.5604455221,
+        "alert": false
+      },
+      {
+        "date": "2023-03-30",
+        "prior_threshold_bps": 177.54788550636053,
+        "absolute_deviation_bps": 2.7296300563,
+        "alert": false
+      },
+      {
+        "date": "2023-03-31",
+        "prior_threshold_bps": 177.55960760272905,
+        "absolute_deviation_bps": 0.1664905215,
+        "alert": false
+      },
+      {
+        "date": "2023-04-01",
+        "prior_threshold_bps": 177.54952345516406,
+        "absolute_deviation_bps": 0.9251375954,
+        "alert": false
+      },
+      {
+        "date": "2023-04-02",
+        "prior_threshold_bps": 177.55039803369826,
+        "absolute_deviation_bps": 0.89078503316,
+        "alert": false
+      },
+      {
+        "date": "2023-04-03",
+        "prior_threshold_bps": 177.55329669388175,
+        "absolute_deviation_bps": 1.09795874286,
+        "alert": false
+      },
+      {
+        "date": "2023-04-04",
+        "prior_threshold_bps": 177.55619959739448,
+        "absolute_deviation_bps": 0.13964348334,
+        "alert": false
+      },
+      {
+        "date": "2023-04-05",
+        "prior_threshold_bps": 177.5561663329187,
+        "absolute_deviation_bps": 1.23977327261,
+        "alert": false
+      },
+      {
+        "date": "2023-04-06",
+        "prior_threshold_bps": 177.55930294270922,
+        "absolute_deviation_bps": 1.4341071887,
+        "alert": false
+      },
+      {
+        "date": "2023-04-07",
+        "prior_threshold_bps": 177.55998845130213,
+        "absolute_deviation_bps": 0.5261470554,
+        "alert": false
+      },
+      {
+        "date": "2023-04-08",
+        "prior_threshold_bps": 177.55998025281346,
+        "absolute_deviation_bps": 0.51538743773,
+        "alert": false
+      },
+      {
+        "date": "2023-04-09",
+        "prior_threshold_bps": 177.56140094577853,
+        "absolute_deviation_bps": 0.10286615825,
+        "alert": false
+      },
+      {
+        "date": "2023-04-10",
+        "prior_threshold_bps": 176.44540750991712,
+        "absolute_deviation_bps": 2.38724278804,
+        "alert": false
+      },
+      {
+        "date": "2023-04-11",
+        "prior_threshold_bps": 49.63343007254385,
+        "absolute_deviation_bps": 1.01717784934,
+        "alert": false
+      },
+      {
+        "date": "2023-04-12",
+        "prior_threshold_bps": 14.67983663761646,
+        "absolute_deviation_bps": 0.89043043593,
+        "alert": false
+      },
+      {
+        "date": "2023-04-13",
+        "prior_threshold_bps": 13.399076472687627,
+        "absolute_deviation_bps": 0.2429203638,
+        "alert": false
+      },
+      {
+        "date": "2023-04-14",
+        "prior_threshold_bps": 13.193430421716286,
+        "absolute_deviation_bps": 0.1830761817,
+        "alert": false
+      },
+      {
+        "date": "2023-04-15",
+        "prior_threshold_bps": 13.208947282382212,
+        "absolute_deviation_bps": 1.27150447849,
+        "alert": false
+      },
+      {
+        "date": "2023-04-16",
+        "prior_threshold_bps": 13.188794560251955,
+        "absolute_deviation_bps": 1.50773978982,
+        "alert": false
+      },
+      {
+        "date": "2023-04-17",
+        "prior_threshold_bps": 13.183424670524253,
+        "absolute_deviation_bps": 0.3049497185,
+        "alert": false
+      },
+      {
+        "date": "2023-04-18",
+        "prior_threshold_bps": 13.14825753660185,
+        "absolute_deviation_bps": 0.90146874126,
+        "alert": false
+      },
+      {
+        "date": "2023-04-19",
+        "prior_threshold_bps": 12.988409178480216,
+        "absolute_deviation_bps": 0.89294250959,
+        "alert": false
+      },
+      {
+        "date": "2023-04-20",
+        "prior_threshold_bps": 10.064656770199518,
+        "absolute_deviation_bps": 1.7290765634,
+        "alert": false
+      },
+      {
+        "date": "2023-04-21",
+        "prior_threshold_bps": 6.235713966413766,
+        "absolute_deviation_bps": 2.8245874287,
+        "alert": false
+      },
+      {
+        "date": "2023-04-22",
+        "prior_threshold_bps": 4.442076219712401,
+        "absolute_deviation_bps": 1.4270926033,
+        "alert": false
+      },
+      {
+        "date": "2023-04-23",
+        "prior_threshold_bps": 3.385420432675559,
+        "absolute_deviation_bps": 1.9265219174,
+        "alert": false
+      },
+      {
+        "date": "2023-04-24",
+        "prior_threshold_bps": 3.4418749625380727,
+        "absolute_deviation_bps": 4.9450101832,
+        "alert": true
+      },
+      {
+        "date": "2023-04-25",
+        "prior_threshold_bps": 4.344439129237021,
+        "absolute_deviation_bps": 1.5901584467,
+        "alert": false
+      },
+      {
+        "date": "2023-04-26",
+        "prior_threshold_bps": 4.356698727714022,
+        "absolute_deviation_bps": 3.5917366825,
+        "alert": false
+      },
+      {
+        "date": "2023-04-27",
+        "prior_threshold_bps": 4.6511757479432765,
+        "absolute_deviation_bps": 1.561852974,
+        "alert": false
+      },
+      {
+        "date": "2023-04-28",
+        "prior_threshold_bps": 4.6627397813939915,
+        "absolute_deviation_bps": 1.8727057589,
+        "alert": false
+      },
+      {
+        "date": "2023-04-29",
+        "prior_threshold_bps": 4.586270963562247,
+        "absolute_deviation_bps": 3.1058241138,
+        "alert": false
+      },
+      {
+        "date": "2023-04-30",
+        "prior_threshold_bps": 4.6526116755934845,
+        "absolute_deviation_bps": 3.2686753882,
+        "alert": false
+      },
+      {
+        "date": "2023-05-01",
+        "prior_threshold_bps": 4.837913342116631,
+        "absolute_deviation_bps": 4.4342402923,
+        "alert": false
+      },
+      {
+        "date": "2023-05-02",
+        "prior_threshold_bps": 5.295942853481346,
+        "absolute_deviation_bps": 3.7153803334,
+        "alert": false
+      },
+      {
+        "date": "2023-05-03",
+        "prior_threshold_bps": 5.538627508884101,
+        "absolute_deviation_bps": 2.5922438915,
+        "alert": false
+      },
+      {
+        "date": "2023-05-04",
+        "prior_threshold_bps": 5.603765942826272,
+        "absolute_deviation_bps": 27.4569549971,
+        "alert": true
+      },
+      {
+        "date": "2023-05-05",
+        "prior_threshold_bps": 16.97181469617416,
+        "absolute_deviation_bps": 8.6308452356,
+        "alert": false
+      },
+      {
+        "date": "2023-05-06",
+        "prior_threshold_bps": 17.549276063420667,
+        "absolute_deviation_bps": 44.1563062537,
+        "alert": true
+      },
+      {
+        "date": "2023-05-07",
+        "prior_threshold_bps": 30.90110197552518,
+        "absolute_deviation_bps": 30.8111359117,
+        "alert": false
+      },
+      {
+        "date": "2023-05-08",
+        "prior_threshold_bps": 35.38959497228366,
+        "absolute_deviation_bps": 84.5185075498,
+        "alert": true
+      },
+      {
+        "date": "2023-05-09",
+        "prior_threshold_bps": 60.161967380929084,
+        "absolute_deviation_bps": 30.9951673829,
+        "alert": false
+      },
+      {
+        "date": "2023-05-10",
+        "prior_threshold_bps": 62.4074421804398,
+        "absolute_deviation_bps": 12.3148392753,
+        "alert": false
+      },
+      {
+        "date": "2023-05-11",
+        "prior_threshold_bps": 62.627902654729944,
+        "absolute_deviation_bps": 4.0226972266,
+        "alert": false
+      },
+      {
+        "date": "2023-05-12",
+        "prior_threshold_bps": 62.608845416068306,
+        "absolute_deviation_bps": 0.5284693273,
+        "alert": false
+      },
+      {
+        "date": "2023-05-13",
+        "prior_threshold_bps": 62.61495183517771,
+        "absolute_deviation_bps": 1.4708053936,
+        "alert": false
+      },
+      {
+        "date": "2023-05-14",
+        "prior_threshold_bps": 62.595136333625206,
+        "absolute_deviation_bps": 0.97277873641,
+        "alert": false
+      },
+      {
+        "date": "2023-05-15",
+        "prior_threshold_bps": 62.580956531086805,
+        "absolute_deviation_bps": 0.3401332678,
+        "alert": false
+      },
+      {
+        "date": "2023-05-16",
+        "prior_threshold_bps": 62.59646259098709,
+        "absolute_deviation_bps": 1.2904902246,
+        "alert": false
+      },
+      {
+        "date": "2023-05-17",
+        "prior_threshold_bps": 62.5993203959051,
+        "absolute_deviation_bps": 0.18423780603,
+        "alert": false
+      },
+      {
+        "date": "2023-05-18",
+        "prior_threshold_bps": 62.60169249002638,
+        "absolute_deviation_bps": 1.53440698329,
+        "alert": false
+      },
+      {
+        "date": "2023-05-19",
+        "prior_threshold_bps": 62.59270481955673,
+        "absolute_deviation_bps": 0.98429203244,
+        "alert": false
+      },
+      {
+        "date": "2023-05-20",
+        "prior_threshold_bps": 62.59125548154877,
+        "absolute_deviation_bps": 3.03042929329,
+        "alert": false
+      },
+      {
+        "date": "2023-05-21",
+        "prior_threshold_bps": 62.581030171604134,
+        "absolute_deviation_bps": 1.9939108803,
+        "alert": false
+      },
+      {
+        "date": "2023-05-22",
+        "prior_threshold_bps": 62.58746152314066,
+        "absolute_deviation_bps": 1.55455722258,
+        "alert": false
+      },
+      {
+        "date": "2023-05-23",
+        "prior_threshold_bps": 62.585821150550636,
+        "absolute_deviation_bps": 0.46650089628,
+        "alert": false
+      },
+      {
+        "date": "2023-05-24",
+        "prior_threshold_bps": 62.60681974342383,
+        "absolute_deviation_bps": 0.75553656249,
+        "alert": false
+      },
+      {
+        "date": "2023-05-25",
+        "prior_threshold_bps": 62.62526411870158,
+        "absolute_deviation_bps": 0.88600392266,
+        "alert": false
+      },
+      {
+        "date": "2023-05-26",
+        "prior_threshold_bps": 62.634396283533235,
+        "absolute_deviation_bps": 0.43927401468,
+        "alert": false
+      },
+      {
+        "date": "2023-05-27",
+        "prior_threshold_bps": 62.660111934049986,
+        "absolute_deviation_bps": 0.62010465542,
+        "alert": false
+      },
+      {
+        "date": "2023-05-28",
+        "prior_threshold_bps": 62.67226468072921,
+        "absolute_deviation_bps": 0.61754197981,
+        "alert": false
+      },
+      {
+        "date": "2023-05-29",
+        "prior_threshold_bps": 62.68706236201163,
+        "absolute_deviation_bps": 2.26663323225,
+        "alert": false
+      },
+      {
+        "date": "2023-05-30",
+        "prior_threshold_bps": 62.68997221796824,
+        "absolute_deviation_bps": 0.80778448537,
+        "alert": false
+      },
+      {
+        "date": "2023-05-31",
+        "prior_threshold_bps": 62.706576987100284,
+        "absolute_deviation_bps": 0.72931468156,
+        "alert": false
+      },
+      {
+        "date": "2023-06-01",
+        "prior_threshold_bps": 62.71785731138051,
+        "absolute_deviation_bps": 1.4028847814,
+        "alert": false
+      },
+      {
+        "date": "2023-06-02",
+        "prior_threshold_bps": 62.7237252818679,
+        "absolute_deviation_bps": 0.08364449994,
+        "alert": false
+      },
+      {
+        "date": "2023-06-03",
+        "prior_threshold_bps": 62.74588256081213,
+        "absolute_deviation_bps": 0.85450643967,
+        "alert": false
+      },
+      {
+        "date": "2023-06-04",
+        "prior_threshold_bps": 61.0026325381442,
+        "absolute_deviation_bps": 5.41725566249,
+        "alert": false
+      },
+      {
+        "date": "2023-06-05",
+        "prior_threshold_bps": 60.91183397106803,
+        "absolute_deviation_bps": 2.10444694407,
+        "alert": false
+      },
+      {
+        "date": "2023-06-06",
+        "prior_threshold_bps": 55.56702302337717,
+        "absolute_deviation_bps": 3.82728400146,
+        "alert": false
+      },
+      {
+        "date": "2023-06-07",
+        "prior_threshold_bps": 52.76738452733845,
+        "absolute_deviation_bps": 6.2215108814,
+        "alert": false
+      },
+      {
+        "date": "2023-06-08",
+        "prior_threshold_bps": 20.18198138751911,
+        "absolute_deviation_bps": 0.86912573177,
+        "alert": false
+      },
+      {
+        "date": "2023-06-09",
+        "prior_threshold_bps": 9.239078154191782,
+        "absolute_deviation_bps": 0.6607339219,
+        "alert": false
+      },
+      {
+        "date": "2023-06-10",
+        "prior_threshold_bps": 6.03884413987797,
+        "absolute_deviation_bps": 0.48272393328,
+        "alert": false
+      },
+      {
+        "date": "2023-06-11",
+        "prior_threshold_bps": 5.739847831904303,
+        "absolute_deviation_bps": 1.38627708996,
+        "alert": false
+      },
+      {
+        "date": "2023-06-12",
+        "prior_threshold_bps": 5.73815430903615,
+        "absolute_deviation_bps": 0.02159958182,
+        "alert": false
+      },
+      {
+        "date": "2023-06-13",
+        "prior_threshold_bps": 5.761132240034223,
+        "absolute_deviation_bps": 0.4964152163,
+        "alert": false
+      },
+      {
+        "date": "2023-06-14",
+        "prior_threshold_bps": 5.767758615682258,
+        "absolute_deviation_bps": 1.3313383986,
+        "alert": false
+      },
+      {
+        "date": "2023-06-15",
+        "prior_threshold_bps": 5.760219937590107,
+        "absolute_deviation_bps": 0.11509248037,
+        "alert": false
+      },
+      {
+        "date": "2023-06-16",
+        "prior_threshold_bps": 5.779598804542507,
+        "absolute_deviation_bps": 0.21877482229,
+        "alert": false
+      },
+      {
+        "date": "2023-06-17",
+        "prior_threshold_bps": 5.777897773206378,
+        "absolute_deviation_bps": 0.2591894916,
+        "alert": false
+      },
+      {
+        "date": "2023-06-18",
+        "prior_threshold_bps": 5.777881887402254,
+        "absolute_deviation_bps": 3.3145272739,
+        "alert": false
+      },
+      {
+        "date": "2023-06-19",
+        "prior_threshold_bps": 5.9723214080531015,
+        "absolute_deviation_bps": 0.2153462088,
+        "alert": false
+      },
+      {
+        "date": "2023-06-20",
+        "prior_threshold_bps": 5.835668371509669,
+        "absolute_deviation_bps": 2.1795895123,
+        "alert": false
+      },
+      {
+        "date": "2023-06-21",
+        "prior_threshold_bps": 5.8509867391510095,
+        "absolute_deviation_bps": 0.86290052413,
+        "alert": false
+      },
+      {
+        "date": "2023-06-22",
+        "prior_threshold_bps": 5.834075491583707,
+        "absolute_deviation_bps": 0.9618418195,
+        "alert": false
+      },
+      {
+        "date": "2023-06-23",
+        "prior_threshold_bps": 5.82993181241637,
+        "absolute_deviation_bps": 1.05930613198,
+        "alert": false
+      },
+      {
+        "date": "2023-06-24",
+        "prior_threshold_bps": 5.831010075148843,
+        "absolute_deviation_bps": 0.9701282859,
+        "alert": false
+      },
+      {
+        "date": "2023-06-25",
+        "prior_threshold_bps": 5.831385479464071,
+        "absolute_deviation_bps": 4.08132785368,
+        "alert": false
+      },
+      {
+        "date": "2023-06-26",
+        "prior_threshold_bps": 6.153465778239796,
+        "absolute_deviation_bps": 1.58204945742,
+        "alert": false
+      },
+      {
+        "date": "2023-06-27",
+        "prior_threshold_bps": 6.160990505364959,
+        "absolute_deviation_bps": 0.04053275625,
+        "alert": false
+      },
+      {
+        "date": "2023-06-28",
+        "prior_threshold_bps": 6.185305660078765,
+        "absolute_deviation_bps": 1.5917663153,
+        "alert": false
+      },
+      {
+        "date": "2023-06-29",
+        "prior_threshold_bps": 6.143508618315091,
+        "absolute_deviation_bps": 0.0361761983,
+        "alert": false
+      },
+      {
+        "date": "2023-06-30",
+        "prior_threshold_bps": 6.168880512212443,
+        "absolute_deviation_bps": 0.4648897891,
+        "alert": false
+      }
+    ]
+  },
+  "dai": {
+    "periods": {
+      "pre_selected_event": {
+        "start": "2023-01-01",
+        "end": "2023-02-28",
+        "observations": 59,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.99950559594908",
+        "trough_date": "2023-02-05",
+        "max_absolute_deviation_bps": 4.9440405092,
+        "mean_absolute_deviation_bps": 2.0893544128649153,
+        "days_outside_band": 0,
+        "observed_fraction_outside_band": 0.0,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-02-08",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "4.94404050920000"
+      },
+      "selected_stress_month": {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.966993234213757",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 330.06765786243,
+        "mean_absolute_deviation_bps": 16.545286689993226,
+        "days_outside_band": 1,
+        "observed_fraction_outside_band": 0.03225806451612903,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-03-14",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "330.067657862430000"
+      },
+      "after_selected_event": {
+        "start": "2023-04-01",
+        "end": "2023-06-30",
+        "observations": 91,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.999054952163115",
+        "trough_date": "2023-04-30",
+        "max_absolute_deviation_bps": 9.45047836885,
+        "mean_absolute_deviation_bps": 1.339439581841868,
+        "days_outside_band": 0,
+        "observed_fraction_outside_band": 0.0,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-05-03",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "9.450478368850000"
+      }
+    },
+    "sensitivity": [
+      {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.966993234213757",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 330.06765786243,
+        "mean_absolute_deviation_bps": 16.545286689993226,
+        "days_outside_band": 2,
+        "observed_fraction_outside_band": 0.06451612903225806,
+        "threshold_bps": 50,
+        "recovery_confirmation_date": "2023-03-15",
+        "days_to_three_day_recovery_confirmation": 4,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "330.067657862430000"
+      },
+      {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.966993234213757",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 330.06765786243,
+        "mean_absolute_deviation_bps": 16.545286689993226,
+        "days_outside_band": 1,
+        "observed_fraction_outside_band": 0.03225806451612903,
+        "threshold_bps": 100,
+        "recovery_confirmation_date": "2023-03-14",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "330.067657862430000"
+      },
+      {
+        "start": "2023-03-01",
+        "end": "2023-03-31",
+        "observations": 31,
+        "missing_calendar_days": 0,
+        "min_price_usd": "0.966993234213757",
+        "trough_date": "2023-03-11",
+        "max_absolute_deviation_bps": 330.06765786243,
+        "mean_absolute_deviation_bps": 16.545286689993226,
+        "days_outside_band": 1,
+        "observed_fraction_outside_band": 0.03225806451612903,
+        "threshold_bps": 200,
+        "recovery_confirmation_date": "2023-03-14",
+        "days_to_three_day_recovery_confirmation": 3,
+        "hypothetical_10000_tokens_max_mark_to_peg_shortfall_usd": "330.067657862430000"
+      }
+    ],
+    "lagged_alerts": [
+      {
+        "date": "2023-01-31",
+        "prior_threshold_bps": 4.130774741912979,
+        "absolute_deviation_bps": 3.07555665847,
+        "alert": false
+      },
+      {
+        "date": "2023-02-01",
+        "prior_threshold_bps": 4.170992020110672,
+        "absolute_deviation_bps": 2.54382241593,
+        "alert": false
+      },
+      {
+        "date": "2023-02-02",
+        "prior_threshold_bps": 4.18578625979344,
+        "absolute_deviation_bps": 1.96383139247,
+        "alert": false
+      },
+      {
+        "date": "2023-02-03",
+        "prior_threshold_bps": 4.187777588972307,
+        "absolute_deviation_bps": 2.77086643512,
+        "alert": false
+      },
+      {
+        "date": "2023-02-04",
+        "prior_threshold_bps": 4.17208955480148,
+        "absolute_deviation_bps": 4.47961381016,
+        "alert": true
+      },
+      {
+        "date": "2023-02-05",
+        "prior_threshold_bps": 4.608804932337019,
+        "absolute_deviation_bps": 4.9440405092,
+        "alert": true
+      },
+      {
+        "date": "2023-02-06",
+        "prior_threshold_bps": 5.1297727242403734,
+        "absolute_deviation_bps": 3.8980758195,
+        "alert": false
+      },
+      {
+        "date": "2023-02-07",
+        "prior_threshold_bps": 5.323526121251772,
+        "absolute_deviation_bps": 4.67278129856,
+        "alert": false
+      },
+      {
+        "date": "2023-02-08",
+        "prior_threshold_bps": 5.644698301086153,
+        "absolute_deviation_bps": 4.13385265836,
+        "alert": false
+      },
+      {
+        "date": "2023-02-09",
+        "prior_threshold_bps": 5.840137565309082,
+        "absolute_deviation_bps": 4.01966193625,
+        "alert": false
+      },
+      {
+        "date": "2023-02-10",
+        "prior_threshold_bps": 5.960156305805917,
+        "absolute_deviation_bps": 3.33031292695,
+        "alert": false
+      },
+      {
+        "date": "2023-02-11",
+        "prior_threshold_bps": 6.012402980188671,
+        "absolute_deviation_bps": 4.01230781041,
+        "alert": false
+      },
+      {
+        "date": "2023-02-12",
+        "prior_threshold_bps": 6.1408720723829155,
+        "absolute_deviation_bps": 2.98923718273,
+        "alert": false
+      },
+      {
+        "date": "2023-02-13",
+        "prior_threshold_bps": 6.164089610049572,
+        "absolute_deviation_bps": 0.59235947861,
+        "alert": false
+      },
+      {
+        "date": "2023-02-14",
+        "prior_threshold_bps": 6.273622302613209,
+        "absolute_deviation_bps": 0.78268848626,
+        "alert": false
+      },
+      {
+        "date": "2023-02-15",
+        "prior_threshold_bps": 6.349080690906756,
+        "absolute_deviation_bps": 1.95951029526,
+        "alert": false
+      },
+      {
+        "date": "2023-02-16",
+        "prior_threshold_bps": 6.282732900371386,
+        "absolute_deviation_bps": 2.66897720631,
+        "alert": false
+      },
+      {
+        "date": "2023-02-17",
+        "prior_threshold_bps": 6.272113339867429,
+        "absolute_deviation_bps": 0.3588849504,
+        "alert": false
+      },
+      {
+        "date": "2023-02-18",
+        "prior_threshold_bps": 6.38880034775436,
+        "absolute_deviation_bps": 0.46800039929,
+        "alert": false
+      },
+      {
+        "date": "2023-02-19",
+        "prior_threshold_bps": 6.461393077386852,
+        "absolute_deviation_bps": 0.52827878434,
+        "alert": false
+      },
+      {
+        "date": "2023-02-20",
+        "prior_threshold_bps": 6.5370533049522646,
+        "absolute_deviation_bps": 0.67347342838,
+        "alert": false
+      },
+      {
+        "date": "2023-02-21",
+        "prior_threshold_bps": 6.562363232858595,
+        "absolute_deviation_bps": 1.06018407801,
+        "alert": false
+      },
+      {
+        "date": "2023-02-22",
+        "prior_threshold_bps": 6.49009489966633,
+        "absolute_deviation_bps": 1.50722527999,
+        "alert": false
+      },
+      {
+        "date": "2023-02-23",
+        "prior_threshold_bps": 6.44786855347256,
+        "absolute_deviation_bps": 0.86911708726,
+        "alert": false
+      },
+      {
+        "date": "2023-02-24",
+        "prior_threshold_bps": 6.489397661970024,
+        "absolute_deviation_bps": 1.9300993571,
+        "alert": false
+      },
+      {
+        "date": "2023-02-25",
+        "prior_threshold_bps": 6.4876283184552985,
+        "absolute_deviation_bps": 1.13605320414,
+        "alert": false
+      },
+      {
+        "date": "2023-02-26",
+        "prior_threshold_bps": 6.494768344346569,
+        "absolute_deviation_bps": 1.5641297747,
+        "alert": false
+      },
+      {
+        "date": "2023-02-27",
+        "prior_threshold_bps": 6.472727282424241,
+        "absolute_deviation_bps": 2.55135999802,
+        "alert": false
+      },
+      {
+        "date": "2023-02-28",
+        "prior_threshold_bps": 6.4875351494205376,
+        "absolute_deviation_bps": 2.10713664274,
+        "alert": false
+      },
+      {
+        "date": "2023-03-01",
+        "prior_threshold_bps": 6.473133980449806,
+        "absolute_deviation_bps": 0.17991927089,
+        "alert": false
+      },
+      {
+        "date": "2023-03-02",
+        "prior_threshold_bps": 6.532690991480088,
+        "absolute_deviation_bps": 1.70088862873,
+        "alert": false
+      },
+      {
+        "date": "2023-03-03",
+        "prior_threshold_bps": 6.472167125012339,
+        "absolute_deviation_bps": 2.69908523475,
+        "alert": false
+      },
+      {
+        "date": "2023-03-04",
+        "prior_threshold_bps": 6.4817766458217285,
+        "absolute_deviation_bps": 2.84649325076,
+        "alert": false
+      },
+      {
+        "date": "2023-03-05",
+        "prior_threshold_bps": 6.521871556435219,
+        "absolute_deviation_bps": 2.22862507472,
+        "alert": false
+      },
+      {
+        "date": "2023-03-06",
+        "prior_threshold_bps": 6.493852916400534,
+        "absolute_deviation_bps": 1.2410462124,
+        "alert": false
+      },
+      {
+        "date": "2023-03-07",
+        "prior_threshold_bps": 6.226962548775822,
+        "absolute_deviation_bps": 1.7202781879,
+        "alert": false
+      },
+      {
+        "date": "2023-03-08",
+        "prior_threshold_bps": 5.810033301537144,
+        "absolute_deviation_bps": 0.55721506902,
+        "alert": false
+      },
+      {
+        "date": "2023-03-09",
+        "prior_threshold_bps": 5.626966452489134,
+        "absolute_deviation_bps": 0.99117886884,
+        "alert": false
+      },
+      {
+        "date": "2023-03-10",
+        "prior_threshold_bps": 5.197919383944307,
+        "absolute_deviation_bps": 8.47876860412,
+        "alert": true
+      },
+      {
+        "date": "2023-03-11",
+        "prior_threshold_bps": 6.751144501469853,
+        "absolute_deviation_bps": 330.06765786243,
+        "alert": true
+      },
+      {
+        "date": "2023-03-12",
+        "prior_threshold_bps": 189.60445381803052,
+        "absolute_deviation_bps": 75.90389246055,
+        "alert": false
+      },
+      {
+        "date": "2023-03-13",
+        "prior_threshold_bps": 195.14999916564057,
+        "absolute_deviation_bps": 12.29034219863,
+        "alert": false
+      },
+      {
+        "date": "2023-03-14",
+        "prior_threshold_bps": 195.32654756343382,
+        "absolute_deviation_bps": 4.71629082312,
+        "alert": false
+      },
+      {
+        "date": "2023-03-15",
+        "prior_threshold_bps": 195.35050751718802,
+        "absolute_deviation_bps": 4.9009081126,
+        "alert": false
+      },
+      {
+        "date": "2023-03-16",
+        "prior_threshold_bps": 195.4015749018989,
+        "absolute_deviation_bps": 3.98781072427,
+        "alert": false
+      },
+      {
+        "date": "2023-03-17",
+        "prior_threshold_bps": 195.43692831552346,
+        "absolute_deviation_bps": 1.49970303508,
+        "alert": false
+      },
+      {
+        "date": "2023-03-18",
+        "prior_threshold_bps": 195.43239681513313,
+        "absolute_deviation_bps": 4.25110607363,
+        "alert": false
+      },
+      {
+        "date": "2023-03-19",
+        "prior_threshold_bps": 195.45250958138882,
+        "absolute_deviation_bps": 6.87660145767,
+        "alert": false
+      },
+      {
+        "date": "2023-03-20",
+        "prior_threshold_bps": 195.53555066358155,
+        "absolute_deviation_bps": 5.93857836471,
+        "alert": false
+      },
+      {
+        "date": "2023-03-21",
+        "prior_threshold_bps": 195.59955252666919,
+        "absolute_deviation_bps": 5.94803149761,
+        "alert": false
+      },
+      {
+        "date": "2023-03-22",
+        "prior_threshold_bps": 195.66155257240646,
+        "absolute_deviation_bps": 5.01274123173,
+        "alert": false
+      },
+      {
+        "date": "2023-03-23",
+        "prior_threshold_bps": 195.7070831389748,
+        "absolute_deviation_bps": 6.35595144066,
+        "alert": false
+      },
+      {
+        "date": "2023-03-24",
+        "prior_threshold_bps": 195.76882630170428,
+        "absolute_deviation_bps": 2.29475379796,
+        "alert": false
+      },
+      {
+        "date": "2023-03-25",
+        "prior_threshold_bps": 195.7754830495836,
+        "absolute_deviation_bps": 4.02190605158,
+        "alert": false
+      },
+      {
+        "date": "2023-03-26",
+        "prior_threshold_bps": 195.80464230177813,
+        "absolute_deviation_bps": 2.62916033953,
+        "alert": false
+      },
+      {
+        "date": "2023-03-27",
+        "prior_threshold_bps": 195.81083367173838,
+        "absolute_deviation_bps": 3.81859287913,
+        "alert": false
+      },
+      {
+        "date": "2023-03-28",
+        "prior_threshold_bps": 195.83521284448065,
+        "absolute_deviation_bps": 1.67183876067,
+        "alert": false
+      },
+      {
+        "date": "2023-03-29",
+        "prior_threshold_bps": 195.83602756493866,
+        "absolute_deviation_bps": 2.50979783529,
+        "alert": false
+      },
+      {
+        "date": "2023-03-30",
+        "prior_threshold_bps": 195.83564964627942,
+        "absolute_deviation_bps": 1.96332933443,
+        "alert": false
+      },
+      {
+        "date": "2023-03-31",
+        "prior_threshold_bps": 195.83446072070083,
+        "absolute_deviation_bps": 3.60139470638,
+        "alert": false
+      },
+      {
+        "date": "2023-04-01",
+        "prior_threshold_bps": 195.86158427163863,
+        "absolute_deviation_bps": 3.17314193818,
+        "alert": false
+      },
+      {
+        "date": "2023-04-02",
+        "prior_threshold_bps": 195.87439104103154,
+        "absolute_deviation_bps": 2.67037007114,
+        "alert": false
+      },
+      {
+        "date": "2023-04-03",
+        "prior_threshold_bps": 195.87413054577436,
+        "absolute_deviation_bps": 2.1142338597,
+        "alert": false
+      },
+      {
+        "date": "2023-04-04",
+        "prior_threshold_bps": 195.86772235888438,
+        "absolute_deviation_bps": 5.3641308508,
+        "alert": false
+      },
+      {
+        "date": "2023-04-05",
+        "prior_threshold_bps": 195.90186646692462,
+        "absolute_deviation_bps": 1.82263821048,
+        "alert": false
+      },
+      {
+        "date": "2023-04-06",
+        "prior_threshold_bps": 195.90592475415133,
+        "absolute_deviation_bps": 2.31193630041,
+        "alert": false
+      },
+      {
+        "date": "2023-04-07",
+        "prior_threshold_bps": 195.910513639395,
+        "absolute_deviation_bps": 3.23002684551,
+        "alert": false
+      },
+      {
+        "date": "2023-04-08",
+        "prior_threshold_bps": 195.93043366012327,
+        "absolute_deviation_bps": 1.50808028659,
+        "alert": false
+      },
+      {
+        "date": "2023-04-09",
+        "prior_threshold_bps": 195.9336775376117,
+        "absolute_deviation_bps": 2.50267777123,
+        "alert": false
+      },
+      {
+        "date": "2023-04-10",
+        "prior_threshold_bps": 195.8526471890647,
+        "absolute_deviation_bps": 3.41349655733,
+        "alert": false
+      },
+      {
+        "date": "2023-04-11",
+        "prior_threshold_bps": 45.60252424526183,
+        "absolute_deviation_bps": 1.72059098195,
+        "alert": false
+      },
+      {
+        "date": "2023-04-12",
+        "prior_threshold_bps": 10.38653427689568,
+        "absolute_deviation_bps": 2.22196110142,
+        "alert": false
+      },
+      {
+        "date": "2023-04-13",
+        "prior_threshold_bps": 8.101043021462608,
+        "absolute_deviation_bps": 2.09015133704,
+        "alert": false
+      },
+      {
+        "date": "2023-04-14",
+        "prior_threshold_bps": 8.017143403819162,
+        "absolute_deviation_bps": 0.85950664364,
+        "alert": false
+      },
+      {
+        "date": "2023-04-15",
+        "prior_threshold_bps": 7.994386661689866,
+        "absolute_deviation_bps": 1.6273094804,
+        "alert": false
+      },
+      {
+        "date": "2023-04-16",
+        "prior_threshold_bps": 7.974876910162312,
+        "absolute_deviation_bps": 0.36094077437,
+        "alert": false
+      },
+      {
+        "date": "2023-04-17",
+        "prior_threshold_bps": 8.092043811490669,
+        "absolute_deviation_bps": 1.70587538263,
+        "alert": false
+      },
+      {
+        "date": "2023-04-18",
+        "prior_threshold_bps": 8.023882806091919,
+        "absolute_deviation_bps": 0.53038912045,
+        "alert": false
+      },
+      {
+        "date": "2023-04-19",
+        "prior_threshold_bps": 7.5108588610683205,
+        "absolute_deviation_bps": 0.0064831315,
+        "alert": false
+      },
+      {
+        "date": "2023-04-20",
+        "prior_threshold_bps": 7.22157332234264,
+        "absolute_deviation_bps": 0.32834869149,
+        "alert": false
+      },
+      {
+        "date": "2023-04-21",
+        "prior_threshold_bps": 6.809477266323481,
+        "absolute_deviation_bps": 1.5770152676,
+        "alert": false
+      },
+      {
+        "date": "2023-04-22",
+        "prior_threshold_bps": 6.4757881809481805,
+        "absolute_deviation_bps": 1.28723690133,
+        "alert": false
+      },
+      {
+        "date": "2023-04-23",
+        "prior_threshold_bps": 5.682505255700077,
+        "absolute_deviation_bps": 0.0836853259,
+        "alert": false
+      },
+      {
+        "date": "2023-04-24",
+        "prior_threshold_bps": 5.781522426733696,
+        "absolute_deviation_bps": 0.2790173225,
+        "alert": false
+      },
+      {
+        "date": "2023-04-25",
+        "prior_threshold_bps": 5.619462590615587,
+        "absolute_deviation_bps": 1.74390108219,
+        "alert": false
+      },
+      {
+        "date": "2023-04-26",
+        "prior_threshold_bps": 5.572818016614777,
+        "absolute_deviation_bps": 0.71678561989,
+        "alert": false
+      },
+      {
+        "date": "2023-04-27",
+        "prior_threshold_bps": 5.370110414258637,
+        "absolute_deviation_bps": 0.9922213263,
+        "alert": false
+      },
+      {
+        "date": "2023-04-28",
+        "prior_threshold_bps": 5.3755823115037344,
+        "absolute_deviation_bps": 0.3090163983,
+        "alert": false
+      },
+      {
+        "date": "2023-04-29",
+        "prior_threshold_bps": 5.369094543231353,
+        "absolute_deviation_bps": 0.1477712061,
+        "alert": false
+      },
+      {
+        "date": "2023-04-30",
+        "prior_threshold_bps": 5.404983381248935,
+        "absolute_deviation_bps": 9.45047836885,
+        "alert": true
+      },
+      {
+        "date": "2023-05-01",
+        "prior_threshold_bps": 7.401238266165016,
+        "absolute_deviation_bps": 0.74836256898,
+        "alert": false
+      },
+      {
+        "date": "2023-05-02",
+        "prior_threshold_bps": 7.303347488884118,
+        "absolute_deviation_bps": 1.8189070718,
+        "alert": false
+      },
+      {
+        "date": "2023-05-03",
+        "prior_threshold_bps": 7.253236038217342,
+        "absolute_deviation_bps": 1.0417935708,
+        "alert": false
+      },
+      {
+        "date": "2023-05-04",
+        "prior_threshold_bps": 7.2272384198934745,
+        "absolute_deviation_bps": 0.23681869917,
+        "alert": false
+      },
+      {
+        "date": "2023-05-05",
+        "prior_threshold_bps": 6.721993356931838,
+        "absolute_deviation_bps": 0.8830263819,
+        "alert": false
+      },
+      {
+        "date": "2023-05-06",
+        "prior_threshold_bps": 6.700881868041746,
+        "absolute_deviation_bps": 3.3914205286,
+        "alert": false
+      },
+      {
+        "date": "2023-05-07",
+        "prior_threshold_bps": 6.818134041901628,
+        "absolute_deviation_bps": 5.06389601394,
+        "alert": false
+      },
+      {
+        "date": "2023-05-08",
+        "prior_threshold_bps": 7.140239027028934,
+        "absolute_deviation_bps": 0.0745279731,
+        "alert": false
+      },
+      {
+        "date": "2023-05-09",
+        "prior_threshold_bps": 7.15494044611467,
+        "absolute_deviation_bps": 2.21135937712,
+        "alert": false
+      },
+      {
+        "date": "2023-05-10",
+        "prior_threshold_bps": 7.132875474581812,
+        "absolute_deviation_bps": 0.2085341279,
+        "alert": false
+      },
+      {
+        "date": "2023-05-11",
+        "prior_threshold_bps": 6.973941465413062,
+        "absolute_deviation_bps": 1.24892102255,
+        "alert": false
+      },
+      {
+        "date": "2023-05-12",
+        "prior_threshold_bps": 6.957311761812962,
+        "absolute_deviation_bps": 0.2363033061,
+        "alert": false
+      },
+      {
+        "date": "2023-05-13",
+        "prior_threshold_bps": 6.910452960633696,
+        "absolute_deviation_bps": 1.36778208658,
+        "alert": false
+      },
+      {
+        "date": "2023-05-14",
+        "prior_threshold_bps": 6.872038618033864,
+        "absolute_deviation_bps": 1.01389613256,
+        "alert": false
+      },
+      {
+        "date": "2023-05-15",
+        "prior_threshold_bps": 6.8736843264772745,
+        "absolute_deviation_bps": 1.0627380266,
+        "alert": false
+      },
+      {
+        "date": "2023-05-16",
+        "prior_threshold_bps": 6.854925677617974,
+        "absolute_deviation_bps": 0.47621762005,
+        "alert": false
+      },
+      {
+        "date": "2023-05-17",
+        "prior_threshold_bps": 6.852992808603208,
+        "absolute_deviation_bps": 0.3066072485,
+        "alert": false
+      },
+      {
+        "date": "2023-05-18",
+        "prior_threshold_bps": 6.830052072206914,
+        "absolute_deviation_bps": 0.30266761669,
+        "alert": false
+      },
+      {
+        "date": "2023-05-19",
+        "prior_threshold_bps": 6.833243442359059,
+        "absolute_deviation_bps": 0.49384979212,
+        "alert": false
+      },
+      {
+        "date": "2023-05-20",
+        "prior_threshold_bps": 6.821867093380403,
+        "absolute_deviation_bps": 0.04818323557,
+        "alert": false
+      },
+      {
+        "date": "2023-05-21",
+        "prior_threshold_bps": 6.829416135781103,
+        "absolute_deviation_bps": 0.82013704893,
+        "alert": false
+      },
+      {
+        "date": "2023-05-22",
+        "prior_threshold_bps": 6.807586743556703,
+        "absolute_deviation_bps": 1.32373367956,
+        "alert": false
+      },
+      {
+        "date": "2023-05-23",
+        "prior_threshold_bps": 6.808874484093232,
+        "absolute_deviation_bps": 0.52914303526,
+        "alert": false
+      },
+      {
+        "date": "2023-05-24",
+        "prior_threshold_bps": 6.800243170334179,
+        "absolute_deviation_bps": 0.76901394375,
+        "alert": false
+      },
+      {
+        "date": "2023-05-25",
+        "prior_threshold_bps": 6.796039813659324,
+        "absolute_deviation_bps": 0.30374047673,
+        "alert": false
+      },
+      {
+        "date": "2023-05-26",
+        "prior_threshold_bps": 6.7679264633191485,
+        "absolute_deviation_bps": 0.50791743447,
+        "alert": false
+      },
+      {
+        "date": "2023-05-27",
+        "prior_threshold_bps": 6.768202237884062,
+        "absolute_deviation_bps": 0.46669706614,
+        "alert": false
+      },
+      {
+        "date": "2023-05-28",
+        "prior_threshold_bps": 6.765172126866002,
+        "absolute_deviation_bps": 0.531471855,
+        "alert": false
+      },
+      {
+        "date": "2023-05-29",
+        "prior_threshold_bps": 6.762787683277809,
+        "absolute_deviation_bps": 0.91936337184,
+        "alert": false
+      },
+      {
+        "date": "2023-05-30",
+        "prior_threshold_bps": 6.758457903438261,
+        "absolute_deviation_bps": 0.93306807202,
+        "alert": false
+      },
+      {
+        "date": "2023-05-31",
+        "prior_threshold_bps": 4.044463890334467,
+        "absolute_deviation_bps": 0.4041157533,
+        "alert": false
+      },
+      {
+        "date": "2023-06-01",
+        "prior_threshold_bps": 4.046297732548565,
+        "absolute_deviation_bps": 0.9238556725,
+        "alert": false
+      },
+      {
+        "date": "2023-06-02",
+        "prior_threshold_bps": 3.9796441307156667,
+        "absolute_deviation_bps": 0.41070880977,
+        "alert": false
+      },
+      {
+        "date": "2023-06-03",
+        "prior_threshold_bps": 3.971021469695223,
+        "absolute_deviation_bps": 0.1566310207,
+        "alert": false
+      },
+      {
+        "date": "2023-06-04",
+        "prior_threshold_bps": 3.973993298592367,
+        "absolute_deviation_bps": 1.90678222817,
+        "alert": false
+      },
+      {
+        "date": "2023-06-05",
+        "prior_threshold_bps": 4.0544099960785696,
+        "absolute_deviation_bps": 1.9239413377,
+        "alert": false
+      },
+      {
+        "date": "2023-06-06",
+        "prior_threshold_bps": 3.749095947977057,
+        "absolute_deviation_bps": 1.7720721692,
+        "alert": false
+      },
+      {
+        "date": "2023-06-07",
+        "prior_threshold_bps": 2.5327308345375172,
+        "absolute_deviation_bps": 0.62853596434,
+        "alert": false
+      },
+      {
+        "date": "2023-06-08",
+        "prior_threshold_bps": 2.5081535506970045,
+        "absolute_deviation_bps": 0.69785109806,
+        "alert": false
+      },
+      {
+        "date": "2023-06-09",
+        "prior_threshold_bps": 2.2674724284819794,
+        "absolute_deviation_bps": 0.69379947324,
+        "alert": false
+      },
+      {
+        "date": "2023-06-10",
+        "prior_threshold_bps": 2.2531444858726593,
+        "absolute_deviation_bps": 1.0988883925,
+        "alert": false
+      },
+      {
+        "date": "2023-06-11",
+        "prior_threshold_bps": 2.2358173565103763,
+        "absolute_deviation_bps": 1.70695652381,
+        "alert": false
+      },
+      {
+        "date": "2023-06-12",
+        "prior_threshold_bps": 2.3378134165404165,
+        "absolute_deviation_bps": 0.12186895629,
+        "alert": false
+      },
+      {
+        "date": "2023-06-13",
+        "prior_threshold_bps": 2.3087850039604363,
+        "absolute_deviation_bps": 2.4119868578,
+        "alert": true
+      },
+      {
+        "date": "2023-06-14",
+        "prior_threshold_bps": 2.5878676548438664,
+        "absolute_deviation_bps": 0.0939281092,
+        "alert": false
+      },
+      {
+        "date": "2023-06-15",
+        "prior_threshold_bps": 2.5925873472038696,
+        "absolute_deviation_bps": 1.53734504503,
+        "alert": false
+      },
+      {
+        "date": "2023-06-16",
+        "prior_threshold_bps": 2.662865990378569,
+        "absolute_deviation_bps": 0.0392821507,
+        "alert": false
+      },
+      {
+        "date": "2023-06-17",
+        "prior_threshold_bps": 2.6819900560935412,
+        "absolute_deviation_bps": 3.62037281364,
+        "alert": true
+      },
+      {
+        "date": "2023-06-18",
+        "prior_threshold_bps": 3.3040311736286583,
+        "absolute_deviation_bps": 1.70373281023,
+        "alert": false
+      },
+      {
+        "date": "2023-06-19",
+        "prior_threshold_bps": 3.3674714803444576,
+        "absolute_deviation_bps": 1.32365886017,
+        "alert": false
+      },
+      {
+        "date": "2023-06-20",
+        "prior_threshold_bps": 3.361329946648617,
+        "absolute_deviation_bps": 0.7805077767,
+        "alert": false
+      },
+      {
+        "date": "2023-06-21",
+        "prior_threshold_bps": 3.361062006952496,
+        "absolute_deviation_bps": 0.1219131514,
+        "alert": false
+      },
+      {
+        "date": "2023-06-22",
+        "prior_threshold_bps": 3.361288781983367,
+        "absolute_deviation_bps": 1.79625645713,
+        "alert": false
+      },
+      {
+        "date": "2023-06-23",
+        "prior_threshold_bps": 3.4309435003420123,
+        "absolute_deviation_bps": 0.12924221723,
+        "alert": false
+      },
+      {
+        "date": "2023-06-24",
+        "prior_threshold_bps": 3.4528720274093794,
+        "absolute_deviation_bps": 0.9076539084,
+        "alert": false
+      },
+      {
+        "date": "2023-06-25",
+        "prior_threshold_bps": 3.4439155304187787,
+        "absolute_deviation_bps": 0.70964192903,
+        "alert": false
+      },
+      {
+        "date": "2023-06-26",
+        "prior_threshold_bps": 3.440587911077497,
+        "absolute_deviation_bps": 0.54354686695,
+        "alert": false
+      },
+      {
+        "date": "2023-06-27",
+        "prior_threshold_bps": 3.4382776778923896,
+        "absolute_deviation_bps": 2.59963939386,
+        "alert": false
+      },
+      {
+        "date": "2023-06-28",
+        "prior_threshold_bps": 3.635298817270556,
+        "absolute_deviation_bps": 1.48290286129,
+        "alert": false
+      },
+      {
+        "date": "2023-06-29",
+        "prior_threshold_bps": 3.6610077221534434,
+        "absolute_deviation_bps": 1.68691240237,
+        "alert": false
+      },
+      {
+        "date": "2023-06-30",
+        "prior_threshold_bps": 3.7030220375292267,
+        "absolute_deviation_bps": 2.46495439735,
+        "alert": false
+      }
+    ]
+  }
+}

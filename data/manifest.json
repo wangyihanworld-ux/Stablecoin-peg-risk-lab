@@ -1,0 +1,30 @@
+{
+  "source": "Coin Metrics community data",
+  "source_commit": "f1a36afb962731c387bb03982758ab0103063da5",
+  "retrieved_at_utc": "2026-10-24T04:51:25.642354+00:00",
+  "license": "CC BY-NC 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "window": [
+    "2023-01-01",
+    "2023-06-30"
+  ],
+  "transform": "Select time and PriceUSD; omit and report empty prices; no interpolation.",
+  "files": [
+    {
+      "asset": "usdc",
+      "url": "https://raw.githubusercontent.com/coinmetrics/data/f1a36afb962731c387bb03982758ab0103063da5/csv/usdc.csv",
+      "rows": 181,
+      "empty_price_dates": [],
+      "source_sha256": "6851af28f5e3f2f205090631063b969708c9d1135535a6d8cc085e2ed2932af2",
+      "subset_sha256": "6ba3d13f7009816c8d4b73c648f637df7b11fe64d1d2b231b1065749b3481ccf"
+    },
+    {
+      "asset": "dai",
+      "url": "https://raw.githubusercontent.com/coinmetrics/data/f1a36afb962731c387bb03982758ab0103063da5/csv/dai.csv",
+      "rows": 181,
+      "empty_price_dates": [],
+      "source_sha256": "9c2620fdeb8be72768b519ba338b3d1506aadcd6eaf605204f34e8fc41ae2444",
+      "subset_sha256": "71601fddc88f8fbb182b8420ecac434b07f7d7ec05c7d99731c0490bc649703f"
+    }
+  ]
+}
