@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-27",
+  "tests": 18,
+  "subtests": 6,
+  "test_framework": "pytest",
+  "test_exit_code": 0,
+  "demo_exit_codes": {
+    "analyze": 0
+  },
+  "source_sha256_lf_normalized": {
+    "analyze.py": "6ae89b49dcbfebf4dd9bfc4080407566deea4ce092131974854811396b40b254",
+    "download_data.py": "5f4bd15d2f4daa9b69758289948740b313a93a3c326d49b699778abd2f962618",
+    "plot_results.py": "7c81048f9baf8ed283699872b2fd1134537fb33f9695010a54c53e5799a91933",
+    "test_analyze.py": "c1e0711f8632c20baa063d0879aa5d05c8b425dba5f3c01c8b489a0bf3d12aab"
+  },
+  "limits": "AI-assisted local verification; not evidence of deployment, user acceptance or business outcomes."
+}

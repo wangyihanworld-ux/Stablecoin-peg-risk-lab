@@ -1,5 +1,7 @@
 # Stablecoin Peg Risk Lab
 
+[运行与最新验证](docs/validation-latest.md)
+
 An AI-assisted educational study of **observed price deviations**, using real
 public Coin Metrics USDC and DAI daily prices, 2023-01-01 to 2023-06-30.
 It asks: how should a finance analyst measure deviations from USD 1 without
@@ -15,6 +17,10 @@ python analyze.py
 ```
 
 The committed small data subsets make analysis reproducible without credentials.
+Git attributes preserve LF line endings for the CSV snapshots on Windows and Linux,
+so byte-level SHA-256 verification remains identical after a fresh clone.
+Git attributes preserve LF line endings for the CSV snapshots on Windows and Linux,
+so byte-level SHA-256 verification remains identical after a fresh clone.
 Optional: `python download_data.py` re-downloads the same pinned upstream commit.
 `pip install -r requirements-plot.txt` and `python plot_results.py` regenerate the chart.
 
